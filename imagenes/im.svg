@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="im.svg"
+   inkscape:export-filename="I.svg"
+   inkscape:export-xdpi="8.5521889"
+   inkscape:export-ydpi="8.5521889"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:export-bgcolor="#ffffff00"
+     inkscape:zoom="0.36302259"
+     inkscape:cx="213.48534"
+     inkscape:cy="403.55615"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 115.15583,122.44417 41.54355,119.89325"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 75.798773,92.561963 194.23435,93.655214"
+       id="path4" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 87.854999,282.19427 C 71.035706,128.54442 89.330593,127.15918 89.330593,127.15918 l 29.896777,-3.62544 -0.39256,159.42744 z"
+       id="path5-5-1" />
+    <ellipse
+       style="fill:#000000;stroke-width:0"
+       id="path1"
+       cx="103.40145"
+       cy="96.591934"
+       rx="17.773073"
+       ry="17.190212" />
+  </g>
+</svg>
