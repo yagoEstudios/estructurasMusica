@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Mi Cancion</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .estructura {
+            text-align: center;
+            font-size: 1.2em;
+            letter-spacing: 0.3em;
+            margin: 20px 0 40px;
+        }
+
+        .seccion {
+            margin-bottom: 40px;
+        }
+
+        .seccion h3 {
+            margin-bottom: 10px;
+        }
+
+        .acordes {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .acordes img {
+            width: 150px;
+        }
+
+        .palo {
+            margin: 0 -40px;
+        }
+
+        /* ===== ACORDES ===== */
+
+        .acorde {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .acorde .bemol {
+            width: 50px;
+            margin-right: -20px;      /* acerca el bemol */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TÍTULO -->
+    <h1>Mi Cancion</h1>
+
+    <!-- ESTRUCTURA -->
+    <h2>Estructura</h2>
+    <div class="estructura">
+        E E C E C B E
+    </div>
+
+    <!-- DEFINICIONES -->
+    <h2>Definiciones</h2>
+
+    <!-- VERSE -->
+    <div class="seccion">
+        <h3>E · Verse</h3>
+        <div class="acordes">
+
+            <!-- ♭III -->
+            <div class="acorde">
+                <img src="../imagenes/bemol.svg" class="bemol" alt="bemol">
+                <img src="../imagenes/III.svg" alt="III">
+            </div>
+
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/V.svg" alt="V">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/I.svg" alt="I">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/VI.svg" alt="VI">
+
+        </div>
+    </div>
+
+    <!-- CHORUS -->
+    <div class="seccion">
+        <h3>C · Chorus</h3>
+        <div class="acordes">
+            <img src="../imagenes/IV.svg" alt="IV">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/V.svg" alt="V">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/iiim.svg" alt="iii">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/vim.svg" alt="vi">
+        </div>
+    </div>
+
+    <!-- BRIDGE -->
+    <div class="seccion">
+        <h3>B · Bridge</h3>
+        <div class="acordes">
+            <img src="../imagenes/V.svg" alt="V">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/vim.svg" alt="vi">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/ivm.svg" alt="iv">
+            <img src="../imagenes/palo.svg" class="palo" alt="|">
+            <img src="../imagenes/I.svg" alt="I">
+        </div>
+    </div>
+
+</body>
+</html>
